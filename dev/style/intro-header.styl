@@ -1,0 +1,31 @@
+body
+    .intro_header
+        display flex;
+        text-align: center;
+        flex-direction: column;
+        margin: 50px auto;
+        
+        h1
+            font-size: 45pt; 
+            font-weight: 800;
+            margin: 10px 0 0 0;
+            color: font-black;
+        h2
+            font-size 30pt;
+            font-weight: 400;
+            margin: 0;
+            margin-bottom: 20px;
+            color: medium-gray;
+        p
+            font-size: 13pt;  
+            max-width: 500px;
+            margin: 0 auto;
+            color: medium-gray;
+            
+            &::before
+                content: "";
+                background-color: dark-gray;
+                height 1px;
+                width: 200px;
+                display: block;
+                margin: 30px auto;

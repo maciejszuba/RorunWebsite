@@ -1,0 +1,92 @@
+body
+    .form
+        background: lightest-gray;
+        height: 700px;
+        
+        form
+            position: relative
+            margin-top: -100px;
+            background-color: white
+            padding: 30px
+
+            label
+                font-size: 14pt;
+                font-weight: 400;
+
+                span
+                    padding-left: 10px;
+                
+                input, textarea
+                    width: 100%;
+                    border: 1px solid light-gray;
+                    font-size: 16pt;
+                    font-weight: 400;
+                    resize: none;
+                    margin: 10px 0;
+                input
+                    height: 40px;
+                    margin-bottom: 20px;
+                    padding-left: 5px;
+                       
+                textarea
+                    height: 200px;
+                    padding: 5px;
+
+                &:not(:nth-child(3))
+                
+                    span
+                        position relative
+                        display block
+
+                        &::after
+                            content: "required"
+                            position absolute
+                            right: 0
+                            top: 20%;
+                            color: main-green
+                            font-size: 10pt
+                            font-weight: 400
+
+            button    
+                width: 200px;
+                margin-top: 40px;
+
+        .contact-form
+            position: relative;
+            margin-top: -100px;
+            display: flex;
+            justify-content: center;
+            background-color: white;
+
+            form
+                width: 50%;
+                margin-top: 0; 
+                padding: 30px 0;
+
+                button    
+                    width: 200px;
+                    margin-top: 40px;
+
+            .contact-data
+                width: 30%;
+                margin-left: 50px;
+                padding: 20px 0;
+
+                h3
+                    color: font-black;
+                    font-size: 16pt;
+                    font-weight: 400;
+                    margin: 30px 0;
+
+                p   
+                    color: medium-gray;
+                    margin-bottom: 50px;
+                    
+                >:first-child
+                    color: font-black;
+                    font-weight: 900;
+                    font-size: 20pt;
+                    margin: 10px 0;
+             
+            
+               

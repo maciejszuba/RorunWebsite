@@ -1,0 +1,56 @@
+body
+    .chapter-headers 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+
+        h2
+            font-size: 27pt;
+            font-weight: 800;
+            margin: 0;
+            padding: 0;
+            color: font-black;
+
+        h3
+            font-size: 23pt;
+            font-weight: 400;
+            margin: 0;
+            padding: 0;
+            color: medium-gray;
+            &::after
+                content: "";
+                display: block;
+                width: 200px;
+                height 1px;
+                background-color: medium-gray;
+                margin: 40px auto;
+
+    .chapter-headers-contrasted
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+
+        h2
+            font-size: 27pt;
+            font-weight: 800;
+            margin: 0;
+            padding: 0;
+            color: white;
+
+        h3
+            font-size: 23pt;
+            font-weight: 400;
+            margin: 0;
+            padding: 0;
+            color: lightest-gray;
+            &::after
+                content: "";
+                display: block;
+                width: 200px;
+                height 1px;
+                background-color: white;
+                margin: 40px auto;
